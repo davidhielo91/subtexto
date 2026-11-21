@@ -1,0 +1,5 @@
+# Solo si tienes una tarjeta de video NVIDIA.
+# Son las librerías de CUDA que usa la IA para ir mucho más rápido (~1.4 GB).
+nvidia-cublas-cu12
+nvidia-cudnn-cu12>=9,<10
+nvidia-cuda-nvrtc-cu12

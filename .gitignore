@@ -1,0 +1,56 @@
+# Entorno virtual y caché de Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Resultados y archivos de prueba (no se suben al repositorio)
+*.srt
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.webm
+*.mp3
+*.wav
+*.m4a
+*.opus
+*.ogg
+*.flac
+salida/
+transcripciones/
+
+# Sistema / editores
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+.claude/
+.impeccable/
+
+# Construcción del instalador (se genera con build/construir.ps1)
+build/.venv/
+build/dist/
+build/work/
+build/salida/
+build/descargas.iss
+build/construir.log
+
+# Skills de agentes de IA instaladas localmente (no son parte de Subtexto)
+.agents/
+.kiro/
+skills-lock.json
+
+# Borradores de la marca y sus scripts de bocetos (se quedan en local)
+brand/concepts/
+brand/herramientas/a_variantes.py
+brand/herramientas/conceptos_v1.py
+brand/herramientas/conceptos_v2.py
+brand/herramientas/hoja.py
+
+# Instrucciones para agentes de IA (no son parte de Subtexto)
+AGENTS.md
+
+# La página web (subtexto.hieloco.de) vive en su propio repositorio privado
+web/

@@ -1,0 +1,65 @@
+Subtexto - Avisos de software de terceros
+==========================================
+
+Subtexto se distribuye bajo la licencia MIT (ver LICENSE). El instalador de Windows
+(Subtexto-Setup.exe) incluye o descarga el siguiente software de terceros, que conserva
+su propia licencia. Gracias a todos sus autores.
+
+
+INCLUIDO EN EL PROGRAMA
+-----------------------
+
+FFmpeg (bibliotecas avcodec, avformat, avutil, swresample, etc.)
+  Licencia: GNU LGPL versión 3 o posterior.
+  Se usa a través de PyAV para leer el audio de los videos. Va como DLLs separadas
+  (carpeta _internal\av.libs), que puedes reemplazar por otra versión compatible.
+  Código fuente de FFmpeg: https://ffmpeg.org/download.html
+  Cómo se compilan estas DLLs: https://github.com/PyAV-Org/pyav-ffmpeg
+  Texto de la licencia: https://www.gnu.org/licenses/lgpl-3.0.html
+
+PyAV                  BSD-3-Clause        https://github.com/PyAV-Org/PyAV
+faster-whisper        MIT                 https://github.com/SYSTRAN/faster-whisper
+CTranslate2           MIT                 https://github.com/OpenNMT/CTranslate2
+Whisper (modelo)      MIT                 https://github.com/openai/whisper
+Silero VAD (modelo)   MIT                 https://github.com/snakers4/silero-vad
+ONNX Runtime          MIT                 https://github.com/microsoft/onnxruntime
+Tokenizers            Apache-2.0          https://github.com/huggingface/tokenizers
+huggingface_hub       Apache-2.0          https://github.com/huggingface/huggingface_hub
+CustomTkinter         CC0-1.0 / MIT       https://github.com/TomSchimansky/CustomTkinter
+tkinterdnd2           MIT                 https://github.com/Eliav2/tkinterdnd2
+tkdnd                 BSD (estilo Tcl)    https://github.com/petasis/tkdnd
+Pillow                MIT-CMU (HPND)      https://python-pillow.org
+NumPy                 BSD-3-Clause        https://numpy.org
+tqdm                  MPL-2.0 y MIT       https://github.com/tqdm/tqdm
+httpx / httpcore      BSD-3-Clause        https://github.com/encode/httpx
+certifi               MPL-2.0             https://github.com/certifi/python-certifi
+Python                PSF License         https://www.python.org/psf/license/
+Tcl/Tk                BSD (estilo Tcl)    https://www.tcl.tk/software/tcltk/license.html
+PyInstaller (cargador) GPL-2.0 con excepción que permite distribuir programas empaquetados
+                                          https://pyinstaller.org/en/stable/license.html
+Inter (tipografía)    SIL OFL 1.1         https://rsms.me/inter/
+  De Rasmus Andersson. Se usa en el logotipo, convertida a contornos (no se incluye la fuente).
+
+Además se incluyen otras dependencias menores de las bibliotecas anteriores (PyYAML, filelock,
+fsspec, packaging, anyio, h11, idna, protobuf, flatbuffers, etc.), todas con licencias
+permisivas (MIT, BSD, Apache-2.0 o PSF). El texto completo de cada licencia está en el sitio
+de cada proyecto (y en PyPI: https://pypi.org/project/<nombre>/).
+
+
+SE DESCARGA DURANTE LA INSTALACIÓN (opcional)
+---------------------------------------------
+
+Modelos de IA de Whisper convertidos para faster-whisper (Hugging Face)
+  Licencia: MIT.
+  https://huggingface.co/Systran
+  https://huggingface.co/mobiuslabsgmbh/faster-whisper-large-v3-turbo
+
+Bibliotecas de NVIDIA CUDA (cuBLAS, cuDNN, NVRTC) - solo con tarjeta NVIDIA
+  Licencia: NVIDIA Software License Agreement / CUDA EULA.
+  Se descargan directamente de PyPI (paquetes oficiales de NVIDIA); no forman parte de Subtexto.
+  https://docs.nvidia.com/cuda/eula/index.html
+  https://docs.nvidia.com/deeplearning/cudnn/latest/reference/eula.html
+
+
+Inno Setup (el programa que crea el instalador) es de Jordan Russell y Martijn Laan:
+https://jrsoftware.org/isinfo.php

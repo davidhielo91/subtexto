@@ -1,0 +1,6 @@
+# Librerías base (funcionan en cualquier computadora, usando el procesador)
+faster-whisper>=1.1.0
+numpy>=1.24
+tkinterdnd2>=0.4.0
+customtkinter>=5.2.0
+pillow>=10.0

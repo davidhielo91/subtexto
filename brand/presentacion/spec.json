@@ -1,0 +1,36 @@
+{
+  "brand": "Subtexto",
+  "tagline": "Videos y audios a texto con IA, en tu computadora.",
+  "brief": "Programa gratuito para Windows que transcribe videos y audios con IA 100 % local y entrega texto con minuto y segundo y subtítulos en líneas cortas. Para creadores de contenido, estudiantes y cualquiera que transcriba reuniones o notas de voz. Debe sentirse privado, sencillo y cercano, y leerse a 16 px.",
+  "adjectives": ["privado", "sencillo", "preciso", "cercano"],
+  "criteria": "Éxito: lejos de las barras de onda y los micrófonos de la categoría, reconocible a 16 px, funciona en un color, combina con la interfaz oscura y violeta.",
+  "industry": "software",
+  "mockups": ["app-icon", "favicon-tab", "website", "readme", "social", "sticker"],
+  "nav": ["Cómo funciona", "Preguntas", "Descargar"],
+  "brand_color": "#8B5CF6",
+  "greyscale": false,
+  "symbol_on_tile": "../logo/simbolo-blanco.svg",
+  "tile_color": "#8B5CF6",
+  "lockup_on_dark": "../logo/horizontal-sobre-oscuro.svg",
+  "designer": "Subtexto",
+  "round": 2,
+  "concepts": [
+    {
+      "name": "S cortada",
+      "symbol": "../logo/simbolo.svg",
+      "lockup": "../logo/horizontal-color.svg",
+      "idea": "La S está cortada como se cortan los subtítulos: en renglones.",
+      "rationale": [
+        "Una sola letra: funciona como ícono de Windows, favicon y foto de perfil",
+        "El corte cuenta lo que hace el programa sin dibujar ondas ni micrófonos",
+        "Tres renglones con un solo grosor y un solo radio; simétrica al girarla 180°"
+      ]
+    }
+  ],
+  "recommendation": "S cortada en violeta #8B5CF6: la misma familia que la interfaz, clara a 16 px y propia en la categoría.",
+  "next_steps": [
+    "Aplicar el ícono al programa y al instalador (construir_marca.py --aplicar)",
+    "Usar el set web en la página de descarga y el README",
+    "Subir perfil y portadas a redes"
+  ]
+}
